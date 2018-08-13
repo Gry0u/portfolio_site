@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="head_inner">
+        <svg class="header_logo" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+          <line x1="19" x2="493.2" y1="447" y2="447"/>
+          <rect height="222.1" width="87.1" x="44.9" y="224.9"/>
+          <rect height="279.5" width="87.1" x="156.9" y="167.4"/>
+          <rect height="396.3" width="87.1" x="270.9" y="50.6"/>
+          <rect height="222.1" width="87.1" x="384.8" y="224.9"/>
+        </svg>
+        <div class="header_text">
+          <h1 class="header_title">Gauthier Riou</h1>
+          <h2 class="header_subtitle">Data Analyst</h2>
+          <h2 class="header_subtitle">Wannabe Front End Developer</h2>
+        </div>
+      </div>
+    </header>
+    <nav class="nav">
+      <ul class="nav_list">
+        <li class="nav_item">
+          <a href="">About</a>
+        </li>
+        <li class="nav_item">
+          <a href="">Projects</a>
+        </li>
+        <li class="nav_item">
+          <a href="">CV</a>
+        </li>
+        <li class="nav_item">
+          <a href="">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <section class="content">
+        <section class="about">
+          <h2 class="section_title">About</h2>
+          <p>I am an industrial engineer working in the aerospace industry. I completed my first Udacity nanodegree on Data Analytics earlier this year. I recently joined currently joined a next one in order to develop skills in front web development.</p>
+        </section>
+        <section class="projects">
+          <h2 class="section_title">Projects</h2>
+          <div class="container_projects">
+            <article>
+              <h3 class="snippet_title">FBI NCIS</h3>
+              <img class="thumbnail gun" src="img/nics.svg" alt="gun outline picture">
+              <a href="https://github.com/Gry0u/FBI_NICS_Project">
+                <img class="github_logo" src="img/github.png" alt="github_logo">
+              </a>
+              <p class="snippet_description">The NICS is used by to determine whether a prospective buyer is eligible to buy firearms or explosives. Gun shops call into this system to ensure that each customer does not have a criminal record or isn’t otherwise ineligible to make a purchase. The analyse shows correlation of NICS data with demographics data.
+              </p>
+            </article>
+            <article>
+              <h3 class="snippet_title">Open Street Map</h3>
+              <svg class="thumbnail" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="612px" height="612px" viewBox="0 0 612 612">
+                <path d="M516.316,337.52l94.233,193.581c3.832,7.873-0.196,14.314-8.952,14.314H10.402c-8.756,0-12.785-6.441-8.952-14.314
+                  L95.684,337.52c1.499-3.079,5.528-5.599,8.952-5.599h80.801c2.49,0,5.853,1.559,7.483,3.442
+                  c5.482,6.335,11.066,12.524,16.634,18.65c5.288,5.815,10.604,11.706,15.878,17.735h-95.891c-3.425,0-7.454,2.519-8.952,5.599
+                  L58.163,505.589h495.67l-62.421-128.242c-1.498-3.08-5.527-5.599-8.953-5.599h-96.108c5.273-6.029,10.591-11.92,15.879-17.735
+                  c5.585-6.144,11.2-12.321,16.695-18.658c1.628-1.878,4.984-3.434,7.47-3.434h80.971
+                  C510.789,331.921,514.817,334.439,516.316,337.52z M444.541,205.228c0,105.776-88.058,125.614-129.472,227.265
+                  c-3.365,8.26-14.994,8.218-18.36-0.04c-37.359-91.651-112.638-116.784-127.041-198.432
+                  c-14.181-80.379,41.471-159.115,122.729-166.796C375.037,59.413,444.541,124.204,444.541,205.228z M379.114,205.228
+                  c0-40.436-32.779-73.216-73.216-73.216s-73.216,32.78-73.216,73.216c0,40.437,32.779,73.216,73.216,73.216
+                  S379.114,245.665,379.114,205.228z"/>
+              </svg>
+              <a href="https://github.com/Gry0u/Open_Street_Map_Project">
+                <img class="github_logo" src="img/github.png" alt="github_logo">
+              </a>
+              <p class="snippet_description"> I selected and exported as an XML file a geographic area. After cleaning and auditing the file, I generated csv files from that I then imported into a SQL database. I finally queried the SQL database in order to get detailed insights about the geographic area.
+              </p>
+            </article>
+          </div>
+          <div class="container_projects">
+            <article>
+              <h3 class="snippet_title">Enron Fraud</h3>
+              <img class="thumbnail" src="img/enron.svg" alt="enron logo">
+              <a href="https://github.com/Gry0u/Enron_Fraud_Project">
+                <img class="github_logo" src="img/github.png" alt="github_logo">
+              </a>
+              <p class="snippet_description">The Enron scandal was a financial scandal that eventually led to the bankruptcy of the Enron Corporation, an American energy company based in Houston, Texas, and the de facto dissolution of Arthur Andersen, which was one of the five largest audit and accountancy partnerships in the world. In addition to being the largest bankruptcy reorganization in American history at that time, Enron was cited as the biggest audit failure. Using the data set described below, the goal of this project was to build a classifier in order to predict whether a person is a person of interest (POI) or not.
+              </p>
+            </article>
+            <article>
+              <h3 class="snippet_title">Red Wine Quality</h3>
+                <img class="thumbnail wine_picture" src="img/wine.svg" alt="wine image">
+                <a href="https://github.com/Gry0u/EDA_R">
+                  <img class="github_logo" src="img/github.png" alt="github_logo">
+                </a>
+              <p class="snippet_description">In this Exploratory Data Analysis project, I analysed different chemical wine properties in order to try to predict wine quality.
+              </p>
+            </article>
+          </div>
+        </section>
+        <section class="CV">
+          <h2 class="section_title">CV</h2>
+          <div class="CV_text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, sapiente! Impedit veritatis saepe aut ad autem quaerat unde numquam accusantium architecto accusamus. Odit assumenda quam sit nulla nemo, labore! Deserunt.
+          </div>
+        </section>
+        <section>
+          <h2 class="section_title">Contact</h2>
+          <ul>
+            <li>
+              <a href="https://www.linkedin.com/in/griou">
+                <img class='contact' src="img/linkedin.png" alt="linkedin_logo">
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Gry0u">
+                <img class='contact' src="img/github.png" alt="github_logo">
+              </a>
+            </li>
+            <li class="contact">gauthriou@protonmail.com</li>
+          </ul>
+        </section>
+      </section>
+      <footer class="footer"></footer>
+    </main>
+  </body>
+</html>
