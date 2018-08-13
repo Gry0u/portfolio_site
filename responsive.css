@@ -1,0 +1,15 @@
+.container_projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container_projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 700px) {
+   article {
+    font-size: 20px;
+  }
+}
