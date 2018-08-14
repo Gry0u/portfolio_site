@@ -1,15 +1,42 @@
 .container_projects {
-  display: flex;
-  flex-wrap: wrap;
+ display: flex;
+ flex-wrap: wrap;
+
 }
 
-.container_projects {
-  display: flex;
-  flex-wrap: wrap;
+/* small */
+@media screen and (max-width: 500 px) {
+  .nav_list > a {
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
 }
 
+
+@media screen and (max-width: 350px) {
+  .snippet_description {
+    display: none;
+  }
+  .thumbnail {
+    width: 200px;
+    height: auto;
+  }
+  article {
+    width: 100%;
+  }
+}
+
+
+/* medium */
 @media screen and (min-width: 700px) {
-   article {
+  article {
+    width: 50%;
+  }
+}
+/* large */
+@media screen and (min-width: 1000px) {
+  p {
     font-size: 20px;
+    line-height: 1.5em;
   }
 }
